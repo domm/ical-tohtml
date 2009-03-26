@@ -1,0 +1,27 @@
+This is Perl module ICal::ToHTML.
+
+INSTALLATION
+
+ICal::ToHTML installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan ICal::ToHTML
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Build.PL
+    % make && make test
+
+Then install it:
+
+    % sudo ./Build install
+
+DOCUMENTATION
+
+ICal::ToHTML documentation is available as in POD. So you can do:
+
+    % perldoc ICal::ToHTML
+
+to read the documentation online with your favorite pager.
+
+Thomas Klausner
