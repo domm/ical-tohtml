@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl'             => '5.010',
+        'iCal::Parser'      => '1.16',
     },
     add_to_cleanup     => ['ICal-ToHTML-*'],
     create_makefile_pl => 'passthrough',
